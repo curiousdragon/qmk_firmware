@@ -124,7 +124,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * Num Layer: Numbers
  *
  * ,-------------------------------------------.                              ,-------------------------------------------.
- * |  LGui  | LGui | Ctl S| Ctl  |  F3  |  F5  |                              |      |      |      |      |  0   |        |
+ * |  LGui  | LGui | Ctl S| Ctl  |  F3  |  F6  |                              |      |      |      |      |  0   |        |
  * |   `    |  1   | Tab  | Tab  |      |      |                              |      |      |      |      |      |        |
  * |--------+------+------+------+------+------|                              |------+------+------+------+------+--------|
  * |        |  1   |  2   |  3   |  4   |  5   |                              |  6   |  7   |   8  |   9  |  0   |        |
@@ -137,7 +137,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  *                        `----------------------------------'  `----------------------------------'
  */
 [_NUM] = LAYOUT(
-    LGUI(KC_GRV), LGUI(KC_1), LCTL(LSFT(KC_TAB)), LCTL(KC_TAB), KC_F3, KC_F5,                 KC_NO, KC_NO, KC_NO, KC_NO, KC_0 , _T             ,
+    LGUI(KC_GRV), LGUI(KC_1), LCTL(LSFT(KC_TAB)), LCTL(KC_TAB), KC_F3, KC_F6,                 KC_NO, KC_NO, KC_NO, KC_NO, KC_0 , _T             ,
     _T          , KC_1      , KC_2              , KC_3        , KC_4 , KC_5 ,                 KC_6 , KC_7 , KC_8 , KC_9 , KC_0 , _T             ,
     SGUI_T(KC_LBRC), KC_6   , KC_7              , KC_8        , KC_9 , KC_0 , _T, _T, _T, _T, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, RSFT_T(KC_RBRC),
                                                   _T          , _T   , _T   , _T, _T, _T, _T, _T   , _T   , _T
