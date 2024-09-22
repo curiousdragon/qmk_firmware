@@ -1,5 +1,13 @@
 #include QMK_KEYBOARD_H
 
+// Turn off the power LED while QMK is running
+void keyboard_pre_init_user(void) {
+    // Set our LED pin as output
+    setPinOutput(24);
+    // Turn the LED off (high = off, low = on)
+    writePinHigh(24);
+}
+
 enum layers {
     _QWERTY = 0,
     _SYM,
